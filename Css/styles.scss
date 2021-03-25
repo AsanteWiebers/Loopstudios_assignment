@@ -1,19 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import './base.styling';
 
-* {
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+body {
+font-size: 15px;
+height: 100%;
+width: 100%;
+}
+
+.hero {
+background: url(/Dist/Images/2021_block1-master-images-mobile/images/mobile/image-hero.jpg);
+background-repeat: no-repeat;
+background-position: left top;
+background-size: cover;
+height: auto;
+padding:2rem 5% 8rem 5%;
+width: 100%;
+
+}
+
+header {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+    .btn {
+    
+     cursor: pointer; 
+
+    }
+
+    nav {
+    align-items: flex-start;
+    background-color: $Black;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    left: -100%;
+    width: 100%;
+    padding: 0 5%;
+    transition: 0.25s;
+    z-index: 10;
+
+    }
+
+    a {
+    color: $White;
+    position: relative;
+    
+    }
+
+    .banner-text {
+    color: $White;
+    border: thin solid white;
+    }
 }
 
 
-$primary_color: hsl(0, 0%, 100%);
-$secondary_color: hsl(0, 0%, 0%);
-$primary_gray: hsl(0, 0%, 55%);
-$secondary_gray: hsl(0, 0%, 41%);
-
-body{
-font-size: 5em;
-font-family: 'Alata', sans-serif;
-}

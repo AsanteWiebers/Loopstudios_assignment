@@ -7,7 +7,53 @@
 }
 
 body {
-  font-size: 5em;
-  font-family: 'Alata', sans-serif;
+  font-size: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  background: url(/Dist/Images/2021_block1-master-images-mobile/images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  height: auto;
+  padding: 2rem 5% 8rem 5%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .btn {
+  cursor: pointer;
+}
+
+header nav {
+  align-items: flex-start;
+  background-color: black;
+  top: 0;
+  position: fixed;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  left: -100%;
+  width: 100%;
+  padding: 0 5%;
+  transition: 0.25s;
+  z-index: 10;
+}
+
+header a {
+  color: white;
+  position: relative;
+}
+
+header .banner-text {
+  color: white;
+  border: thin solid white;
 }
 /*# sourceMappingURL=styles.css.map */

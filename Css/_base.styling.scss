@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+$font-1: "Josefin Sans", sans-serif;
+$font-2: "alanta", sans-serif;
+
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$primary_gray: hsl(0, 0%, 55%);
+$secondary_gray: hsl(0, 0%, 41%);
